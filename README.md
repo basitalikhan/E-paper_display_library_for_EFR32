@@ -16,13 +16,17 @@ For wiring I have used:
 All these pins are available on the Expansion Header of the board. For help you can visit:
 https://www.silabs.com/documents/public/user-guides/ug261-brd4162a.pdf
 
+
 I have used the following library and converted it to be used with Silicon Labs Simplicity Studio IDE:
 https://github.com/ZinggJM/GxEPD
+
 
 The above library also uses the following Adafruit GFX Library. So I have used and converted some of the files of this too.
 https://github.com/adafruit/Adafruit-GFX-Library
 
+
 You can also add most of the fonts to the e-paper display. Follow the following link to add new fonts. Font files should have ttf extension.
 https://learn.adafruit.com/adafruit-gfx-graphics-library/using-fonts
+
 
 The variable FONT_WIDTH should have to be set manually according to the font size.
